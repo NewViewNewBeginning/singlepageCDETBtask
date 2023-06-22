@@ -9,8 +9,20 @@
 
 /* Basic Styles */
 
+body{
+    background: var(--bg-body);
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: var(--bg-primary-color);
+}
+
+
 /* Color Variables */
 :root {
+    --bg-body:#202020;
     --bg-primary-color: #f4f4f4; 
     --bg-secondary-color: #2a2a2a;     
     --text-color: #2a2a2a; 
