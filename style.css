@@ -1,3 +1,13 @@
+/* Color Variables */
+:root {
+    --bg-body:#202020;
+    --bg-primary-color: #f4f4f4; 
+    --bg-secondary-color: #2a2a2a;     
+    --text-color: #2a2a2a; 
+    --text-color-bright:  #f4f4f4;
+    --cta-color:#f67c05;
+  }
+
 /* Basic Reset CSS Values */
 
 *{
@@ -8,6 +18,9 @@
 }
 
 /* Basic Styles */
+html{
+    font-family: 'Roboto', sans-serif;
+}
 
 body{
     background: var(--bg-body);
@@ -19,13 +32,39 @@ body{
     background-color: var(--bg-primary-color);
 }
 
+/* Header with Nav */
 
-/* Color Variables */
-:root {
-    --bg-body:#202020;
-    --bg-primary-color: #f4f4f4; 
-    --bg-secondary-color: #2a2a2a;     
-    --text-color: #2a2a2a; 
-    --text-color-bright:  #f4f4f4;
-    --cta-color:#f67c05;
-  }
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+/* Banner Section */
+.banner{
+    height: 35vh;
+    width: 100%;
+    background: url("./images/placeholder2.jpg") no-repeat center center / cover;
+}
+
+/* Work Section */
+
+/* About Section */
+
+/* Contact Section */
+
+
+
+
+
