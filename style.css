@@ -17,6 +17,20 @@
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+
 /* Basic Styles */
 html{
     font-family: 'Roboto', sans-serif;
@@ -24,12 +38,23 @@ html{
 
 body{
     background: var(--bg-body);
+    color: var(--text-color);
+    line-height: 1.5;
 }
 
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
     background-color: var(--bg-primary-color);
+}
+
+.wrapper > :nth-child(odd) {
+    background-color: var(--bg-secondary-color);
+    color: var(--text-color-bright);
+}
+
+.wrapper > :nth-child(odd) a {
+    color: var(--text-color-bright);
 }
 
 /* Header with Nav */
@@ -60,9 +85,27 @@ nav ul{
 
 /* Work Section */
 
+.wrapper section:nth-child(2){
+    height: 40vh;
+}
 /* About Section */
+.wrapper section:nth-child(3) {
+    height: 50vh;
+  }
 
 /* Contact Section */
+
+.wrapper section:nth-child(4) {
+    height: 55vh;
+    
+  }
+
+  /* Footer */
+
+  footer {
+    height: 10vh;
+    background-color: var(--bg-secondary-color);
+  }
 
 
 
