@@ -166,6 +166,8 @@ section:nth-child(2) .center {
 /* About Section */
 .about{
     min-height: 50vh;
+    padding-bottom: 2rem;
+    
 }
 .about .center {
     flex-direction: column;
@@ -302,9 +304,7 @@ iframe {
     .card {
         margin-top: 3rem;
     }
-    .about {
-        padding: 2rem;
-    }
+    
     .contact-main {
         flex-direction: column;
     }
@@ -322,7 +322,5 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
-    .sec-head{
-        left: 0;
-    }
+    
   }
