@@ -72,8 +72,7 @@ body{
     vertical-align: middle;
 }
 .sec-head{
-    position: relative;
-    left: 20%;
+    align-self: flex-start;
     padding: 2rem 0;
 }
 
@@ -143,19 +142,21 @@ section:nth-child(2) .center {
     border-radius: 50%;
 }
 
-.card :nth-child(n){
+.card img{
     position: relative;
-    top: -20px; 
+    top: -35px; 
 }
-.card :nth-child(2){
-    padding-top: .5rem;
-    font-size: .7rem;
+.card figcaption{
+    position: relative;
+    top: -35px;
+    font-size: .6rem;
     font-weight: 800;
     text-transform: uppercase;
 }
-.card :nth-child(3){
-    font-size: .5rem;
+.card span {
     font-style: italic;
+    color: lightgray;
+    font-size: .4rem;
 }
 
 /* About Section */
