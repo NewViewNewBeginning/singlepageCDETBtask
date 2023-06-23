@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d6dd7f645.js" crossorigin="anonymous"></script>
     <title>One Page</title>
 </head>
 
@@ -16,16 +17,18 @@
     <div class="wrapper">
         <!-- Header Section wit Navigation -->
         <header id="top">
-            <p class="logo">Michal Krawczyk</p>
-            <!-- Main Navigation -->
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="center">
+                <h1>Michal K</h1>
+                <!-- Main Navigation -->
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
             <!-- End Main Navigation -->
             <!-- Banner Section -->
             <section class="banner"></section>
@@ -33,17 +36,81 @@
         </header>
         <!-- End Header -->
         <!-- Recent Work Section -->
-        <section id="work"></section>
+        <section id="work">
+            <h2 class="sec-head">Work <span class="sec-head-add-info"><i class="fa-solid fa-ellipsis-vertical"></i>Some
+                    of my work</span></h2>
+            <div class="center">
+                <div class="card-container">
+                    <div class="card">
+                        <figure>
+                            <img src="./images/image-1.jpg" alt="Description of the image">
+                            <figcaption>Slowmo fall</figcaption>
+                            <p>photo manipulation</p>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="./images/image-2.jpg" alt="Description of the image">
+                            <figcaption>Speed audi</figcaption>
+                            <p>marketing</p>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="./images/image-3.jpg" alt="Description of the image">
+                            <figcaption>The wild one</figcaption>
+                            <p>ilustration</p>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         <!-- End Work Section -->
         <!-- About Me Section -->
-        <section id="about"></section>
+        <section class="about" id="about">
+            <h2 class="sec-head">About <span class="sec-head-add-info"><i
+                        class="fa-solid fa-ellipsis-vertical"></i>Learn more about me</span></h2>
+            <div class="center">
+                <img src="./images/office.jpg" alt="home office">
+                <div class="about-text">
+                    <article>
+                        <h3>Story:</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, laudantium? Assumenda
+                            alias corrupti nesciunt rem ducimus eligendi porro eaque fuga? Illo aperiam praesentium unde
+                            earum in, facere dolorem vero sint!</p>
+                    </article>
+                    <article>
+                        <h3 class="edu">Education:</h3>
+                        <details>
+                            <summary>DESIGN SCHOOL 2003</summary>
+                            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                                international pavilions, award-winning fireworks and seasonal special events.</p>
+                        </details>
+                        <details>
+                            <summary>DESIGN PRO SCHOOL 2005</summary>
+                            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                                international pavilions, award-winning fireworks and seasonal special events.</p>
+                        </details>
+                        <details>
+                            <summary>DESIGN SPECIAL SCHOOL 2009</summary>
+                            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                                international pavilions, award-winning fireworks and seasonal special events.</p>
+                        </details>
+                    </article>
+                </div>
+            </div>
+        </section>
         <!-- End About -->
         <!-- Contact Section -->
         <section id="contact"></section>
         <!-- End Contact Section-->
         <!-- Footer Section -->
         <footer><a href="#top" id="back-to-top">Back to Top</a>
-        <p>&copy; <p>2023</p></p></footer>
+            <p>&copy;
+            <p>2023</p>
+            </p>
+        </footer>
         <!-- End Footer Section -->
     </div>
     <!-- End Page Container -->
